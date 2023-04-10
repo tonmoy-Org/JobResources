@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Account & Finance",
+    "img": "https://user-images.githubusercontent.com/112298385/230783757-23bebeec-5bba-4e9c-9ec8-1eb1160653bc.png",
+    "numberOfJobs": 100
+  },
+  {
+    "id": 2,
+    "name": "Creative Design",
+    "img": "https://user-images.githubusercontent.com/112298385/230783787-daa3b9e5-a036-430b-8ed6-e85cb21e045e.png",
+    "numberOfJobs": 75
+  },
+  {
+    "id": 3,
+    "name": "Marketing & Sales",
+    "img": "https://user-images.githubusercontent.com/112298385/230783807-929c12e2-0a02-44b4-a042-e597c9a705ec.png",
+    "numberOfJobs": 150
+  },
+  {
+    "id": 4,
+    "name": "Engineering Job",
+    "img": "https://user-images.githubusercontent.com/112298385/230783833-4d63a5e9-7b66-41ea-a3e4-be315c155874.png",
+    "numberOfJobs": 200
+  }
+]
+

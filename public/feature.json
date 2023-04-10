@@ -1,0 +1,81 @@
+[
+    {
+      "id": 1,
+      "name": "Technical Database Engineer",
+      "img": "https://user-images.githubusercontent.com/112298385/230786315-9bbbd914-a058-4808-b9a5-3324432a3aeb.png",
+      "location": "New York City",
+      "salary": "$80,000",
+      "jobType": {
+        "type1": "Full-time"
+      },
+      "email": "job1@company.com",
+      "phone": "555-555-5555",
+      "companyName": "Google LLC"
+    },
+    {
+      "id": 2,
+      "name": "Software Engineer",
+      "img": "https://user-images.githubusercontent.com/112298385/230786364-45aadc88-c7c8-4d55-a143-a6f9a601197d.png",
+      "location": "San Francisco",
+      "salary": "$90,000",
+      "jobType": {
+        "type1": "Part-time"
+      },
+      "email": "job2@company.com",
+      "phone": "555-555-5555",
+      "companyName": "Tesla"
+    },
+    {
+      "id": 3,
+      "name": "Senior Product Designer",
+      "img": "https://user-images.githubusercontent.com/112298385/230786384-3fef15d4-7396-43d4-bdcd-84bfb9fbed41.png",
+      "location": "Chicago",
+      "salary": "$75,000",
+      "jobType": {
+        "type1": "Onsite"
+      },
+      "email": "job3@company.com",
+      "phone": "555-555-5555",
+      "companyName": "Netflix"
+    },
+    {
+      "id": 4,
+      "name": "Technical Database Engineer",
+      "img": "https://user-images.githubusercontent.com/112298385/230785436-305ec1ce-3a69-40d5-b5d6-b0a4285a0c2f.png",
+      "location": "Los Angeles",
+      "salary": "$85,000",
+      "jobType": {
+        "type1": "Full-time"
+      },
+      "email": "job4@company.com",
+      "phone": "555-555-5555",
+      "companyName": "Facebook"
+    },
+    {
+      "id": 5,
+      "name": "Software Engineer",
+      "img": "https://user-images.githubusercontent.com/112298385/230785482-bab4b537-1a8c-4caf-aaed-ebf27b2b121a.png",
+      "location": "Boston",
+      "salary": "$70,000",
+      "jobType": {
+        "type1": "Part-time"
+      },
+      "email": "job5@company.com",
+      "phone": "555-555-5555",
+      "companyName": "Microsoft"
+    },
+    {
+      "id": 6,
+      "name": "Motion Graphic Designer",
+      "img": "https://user-images.githubusercontent.com/112298385/230785520-91befe11-49a5-43d8-8bd6-e9963e2086bb.png",
+      "location": "Seattle",
+      "salary": "$95,000",
+      "jobType": {
+        "type1": "Full-time"
+      },
+      "email": "job6@company.com",
+      "phone": "555-555-5555",
+      "companyName": "Amazon"
+    }
+  ]
+  
