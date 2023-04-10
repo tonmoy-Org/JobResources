@@ -8,12 +8,13 @@ const Home = () => {
     const [jobNumbers, setJobNumbers] = useState(null);
     useEffect(() => {
         fetch('numbers.json')
-          .then(response => response.json())
-          .then(data => setJobNumbers(data))
-          .catch(error => console.error(error));
-      }, []);
-    const [jobs, setJob] = useState([]);
+            .then(response => response.json())
+            .then(data => setJobNumbers(data))
+            .catch(error => console.error(error));
+    }, []);
+
     const [showMore, setShowMore] = useState(false);
+    const [jobs, setJob] = useState([]);
     useEffect(() => {
         fetch('feature.json')
             .then(response => response.json())
@@ -46,8 +47,8 @@ const Home = () => {
                     <h1 className='banner-2-title py-5'>Job Category List</h1>
                     <p className='text-p text-zinc-500'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 </div>
-                <div className='flex justify-center gap-10 mb-12'>
-                      {Array.isArray(jobNumbers) && jobNumbers.map(number =>
+                <div className='md:flex justify-center gap-10 mb-12 mx-12'>
+                    {Array.isArray(jobNumbers) && jobNumbers.map(number =>
                         <JobNumber
                             key={number.id}
                             number={number}
