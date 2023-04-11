@@ -13,8 +13,11 @@ const Job = (props) => {
                     <br />
                     <h1 className='font-bold text-[18px]'>{name}</h1>
                     <p className='text-p text-zinc-500 py-2'>{companyName}</p>
-                    <div>
-                        <button className="bg-transparent hover:bg-[#7E90FE] text-[#7E90FE] font-semibold hover:text-white py-2 my-3 px-4 border border-[#7E90FE] rounded">
+                    <div className='flex gap-4'>
+                        <button className="bg-transparent  text-[#7E90FE] font-semibold  py-2 my-3 px-4 border border-[#7E90FE] rounded">
+                            <Link to=''>{jobType.type2}</Link>
+                        </button>
+                        <button className="bg-transparent  text-[#7E90FE] font-semibold py-2 my-3 px-4 border border-[#7E90FE] rounded">
                             <Link to=''>{jobType.type1}</Link>
                         </button>
                     </div>

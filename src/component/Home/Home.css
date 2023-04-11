@@ -12,14 +12,12 @@
 .text-p {
     font-size: 1.125rem;
 }
-
 .banner-2-title {
     font-size: 2.5rem;
     line-height: 1;
     font-weight: 700;
     line-height: 4rem;
 }
-
 
 @media (max-width:576px) {
     .img-man {

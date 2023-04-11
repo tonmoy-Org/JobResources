@@ -9,42 +9,44 @@ import {
 import Main from './component/Layout/Main';
 import Home from './component/Home/Home';
 import JobDetail from './component/JobDetail/JobDetail';
-import Statistics from './component/Statistics/Statistics';
 import AppliedJobs from './component/AppliedJobs/AppliedJobs';
 import Blog from './component/Blog/Blog';
-import cartProductLoader from './component/Loader/CreateLoader';
+import Statistics from './component/Statistics/Statistics';
+import ErrorPage from './component/ErrorPage/ErrorPage';
+
 const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Main></Main>,
-    children:[
-      {
-        path:'/',
-        element: <Home></Home>,
-      },
-      {
-        path:'jobDetail',
-        element: <JobDetail></JobDetail>,
-         
-      },
-      {
-        path:'jobDetail/:id',
-        element: <JobDetail></JobDetail>,
-      },
-      {
-        path:'statistics',
-        element: <Statistics></Statistics>
-      },
-      {
-        path:'appliedJobs',
-        element: <AppliedJobs></AppliedJobs>,
-      },
-      {
-        path:'blog',
-        element: <Blog></Blog>
-      }
-    ]
-  },
+    {
+      path:'/',
+      element: <Main></Main>,
+      errorElement: <ErrorPage></ErrorPage>,
+      children: [
+        {
+          path:'/',
+          element: <Home></Home>
+        },
+        {
+          path:'jobDetail',
+          element: <JobDetail></JobDetail>
+           
+        },
+        {
+          path:'jobDetail/:id',
+          element: <JobDetail></JobDetail>,
+        },
+        {
+          path:'appliedJobs',
+          element: <AppliedJobs></AppliedJobs>,
+        },
+        {
+          path: 'statistics',
+          element: <Statistics></Statistics>
+        },
+        {
+          path: 'blog',
+          element: <Blog></Blog>
+        }
+      ]
+    }
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

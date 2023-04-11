@@ -45,8 +45,8 @@ const Header = () => {
                     <h1><span className='font-bold'>Job</span>Resources</h1>
                 </div>
                 <span onClick={() => setOpen(!open)} >{open === true
-                    ? <XMarkIcon className="h-6 w-6 text-blue-500" />
-                    : <Bars3Icon className="h-6 w-6 text-blue-500" />
+                    ? <XMarkIcon className="h-6 w-6 text-[#7E90FE]" />
+                    : <Bars3Icon className="h-6 w-6 text-[#7E90FE]" />
                 }</span>
             </div>
             <ul className={`duration-500 absolute md:static bg-[#F4F4F4] px-5 md:px-28 py-3 w-full h-full ${open ? 'left-0' : '-left-full'}`}>

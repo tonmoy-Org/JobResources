@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useLoaderData } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import man from '../../assets/man3.png'
-import './Home.css'
+import './Home.css';
 import JobNumber from '../JobNumber/JobNumber';
 import Job from '../Job/Job';
 const Home = () => {
@@ -77,7 +77,7 @@ const Home = () => {
                             className='bg-[#7E90FE] text-white font-bold py-2 px-5 rounded'
                             onClick={() => setShowMore(true)}
                         >
-                            Show More
+                            See All Jobs
                         </button>
                     </div>
                 )}
@@ -107,4 +107,5 @@ const Home = () => {
         </div>
     );
 };
+
 export default Home;
