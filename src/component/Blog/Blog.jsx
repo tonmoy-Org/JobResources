@@ -7,7 +7,7 @@ const Blog = () => {
             <h1 className='banner-2-title font-bold'>Blog</h1>
           </div>
           <br />
-          <div className='md:mx-32 mx-5 md:my-20 my-8'>
+          <div className='mx-32 md:my-20 my-8'>
              <div className='py-6'>
               <h1 className='text-2xl font-semibold pb-2'>1. when should you use context api ?</h1>
               <p className='text-p'>Assuming you're referring to the "Context API" in React, it is a feature that allows components to share data without having to pass the data down through every level of the component tree as props.</p>
