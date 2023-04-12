@@ -57,7 +57,7 @@ const JobDetail = () => {
     addToDb(job.id)
   }
   return (
-    <div>
+    <div className='mb-26'>
       {job ? (
         <div>
           <div className='text-center md:py-32 py-28 job-d'>
