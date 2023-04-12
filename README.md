@@ -8,4 +8,4 @@
 * The page is designed with responsive styling using Tailwind CSS classes.
 
 ### To Look At My Website
-[Visit Here](https://job-resources-tonmoy-org.netlify.app/)
+[Visit Here](https://statuesque-sunshine-ec2b3c.netlify.app/)
